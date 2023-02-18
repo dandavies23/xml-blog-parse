@@ -1,10 +1,5 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+This is a quick app for parsing XML backups from my Wordpress blog. It uses Python to convert my XML export to CSV. It then uses ElementTree to extract the relevant data from the XML and then write it to a CSV file using Python's built-in CSV library. 
 
-Welcome dandavies23,
-
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
-
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
 
 ## Gitpod Reminders
 
@@ -16,7 +11,7 @@ A blue button should appear to click: _Make Public_,
 
 Another blue button should appear to click: _Open Browser_.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+To run a backend Python file, type `python3 run.py`
 
 A blue button should appear to click: _Make Public_,
 

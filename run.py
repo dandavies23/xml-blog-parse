@@ -1,11 +1,11 @@
 import csv
 import xml.etree.ElementTree as ET
 
-# Replace the file name with your own XML export file
-tree = ET.parse('xml-backups/track23.wordpress.2023-02-17.xml')
+# Change file path for XML export file
+tree = ET.parse('xml-backups/track23.wordpress.2020-01-27.xml')
 root = tree.getroot()
 
-# Open a new CSV file for writing
+# Open a new CSV file for writing -- change title to test different backups
 with open('blog-posts.csv', mode='w', newline='') as csvfile:
     writer = csv.writer(csvfile)
 
